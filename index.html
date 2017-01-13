@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>weatherCode</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="jquery-3.1.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="index.js" type="text/javascript" charset="utf-8"></script>
+</head>
+<body>
+	<div class="container">
+		<form >
+			<select name="选择城市"> 
+			    <option value="上海">上海</option> 
+			    <option value="北京">北京</option> 
+			    <option value="厦门">厦门</option> 
+			    <option value="苏州">苏州</option> 
+			    <option value="广州">广州</option> 
+			    <option value="深圳">深圳</option> 
+			    <option value="成都">成都</option> 
+			    <option value="昆明">昆明</option> 
+			    <option value="西藏">西藏</option> 
+		    </select> 
+		</form>
+		<!-- <header><h1> UShow Jack 天气预报</h1></header> -->
+		<div class="header"> UShow Jack 天气预报</div>
+		<div class="now">
+			<div class="item" data-key="temp"><span class="itemName">温度：</span></div>
+			<div class="item" data-key="wind_direction"><span class="itemName">风向：</span></div>
+			<div class="item" data-key="wind_strength"><span class="itemName">风强：</span></div>
+			<div class="item" data-key="humidity"><span class="itemName">湿度：</span></div>
+			<div class="item" data-key="time"><span class="itemName">时间：</span></div>
+		</div>
+		<div class="today">
+			<div class="item" data-key="city"><span class="itemName">城市：</span></div>
+			<div class="item" data-key="time"><span class="itemName">时间：</span></div>
+			<div class="item" data-key="temperature"><span class="itemName">温度：</span></div>
+			<div class="item" data-key="weather"><span class="itemName">天气：</span></div>
+			<div class="item" data-key="wash_index"><span class="itemName">湿度：</span></div>
+			<div class="item" data-key="uv_index"><span class="itemName">紫外线指数：</span></div>
+			<div class="item" data-key="travel_index"><span class="itemName">旅游指数：</span></div>
+			<div class="item" data-key="exercise_index"><span class="itemName">运动指数：</span></div>			
+			<div class="item" data-key="dressing_index"><span class="itemName">穿衣指数：</span></div>
+			<div class="item" data-key="dressing_advice"><span class="itemName">穿衣建议：</span></div>
+		</div>
+		<div class="future">
+			
+		</div>
+		<footer>制作 By UShow Jack</footer>
+	</div>
+
+	
+</body>
+</html>
+<!-- "sk": {
+            "temp": "10",
+            "wind_direction": "西北风",
+            "wind_strength": "2级",
+            "humidity": "36%",
+            "time": "15:59"
+        },
+        "today": {
+            "temperature": "2℃~10℃",
+            "weather": "晴",
+            "weather_id": {
+                "fa": "00",
+                "fb": "00"
+            },
+            "wind": "西北风微风",
+            "week": "星期五",
+            "city": "苏州",
+            "date_y": "2017年01月13日",
+            "dressing_index": "较冷",
+            "dressing_advice": "建议着厚外套加毛衣等服装。年老体弱者宜着大衣、呢外套加羊毛衫。",
+            "uv_index": "中等",
+            "comfort_index": "",
+            "wash_index": "较适宜",
+            "travel_index": "较不宜",
+            "exercise_index": "较不宜",
+            "drying_index": ""
+        }, -->

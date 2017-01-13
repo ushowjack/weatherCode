@@ -1,0 +1,102 @@
+html{
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	padding: 0px;
+	margin: 0px;
+	background-image: url('http://4493bz.1985t.com/uploads/allimg/141004/3-141004093045.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	height: 100%
+	/* width: 100%; */
+}
+.container{
+	position: relative;
+
+	width: 80%;
+	height: 678px;
+	font-family: "微软雅黑";
+
+
+	margin: auto;
+	margin-top: 50px;
+	text-align: center;
+	background: rgba(224,224,224,0.4);
+
+	box-shadow: 1px 1px 3px 1px rgb(29,30,25); 
+
+
+}
+.header{
+
+	font-size: 36px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+
+}
+.now .item{
+	display: inline-block;
+	color: rgb(78,66,98);
+	font-size: 16px;
+	padding: 3px; 
+	padding-bottom: 40px;
+}
+
+.today .item{
+
+	font-size: 24px;
+	height: 45px;
+	width: 100%;
+	position: relative;
+	line-height: 30px;
+
+}
+
+.today .item span:nth-child(1){
+	position: absolute;
+	top: 0px;
+	left: calc(50% - 200px);
+	display: inline-block;
+	width: 150px;
+	text-align: right;
+
+}
+
+.today .item span:nth-child(2){
+	position: absolute;
+	top: 0px;
+	left: calc(50% - 50px);
+	display: inline-block;
+	width: 400px;
+	text-align: left;
+	/* white-space: nowrap; */
+}
+
+footer{
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+
+}
+
+select{
+	position: absolute;
+	top: 40px;
+	right: 60px;
+
+	font-size: 16px;
+
+	padding: 5px;
+
+}
+
+
+
+
+
+
+
+
