@@ -6,7 +6,7 @@ html{
 body{
 	padding: 0px;
 	margin: 0px;
-	background-image: url('http://4493bz.1985t.com/uploads/allimg/141004/3-141004093045.jpg');
+	background-image: url("background.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;

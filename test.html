@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<script>
+
+function where(collection, source) {
+  var arr = [];
+  // What's in a name?
+  var sourceKey = Object.keys(source);//键名数组
+  arr = collection.filter(function(element){
+  	var same = 0;
+  	for (var i = 0; i < sourceKey.length; i++) {
+  		if(element[sourceKey[i]] !== source[sourceKey[i]]){
+  			same = 1;
+  		}
+  	}
+    return same === 0 ? true : false;
+  });
+  return arr;
+}
+
+where([{ "a": 1, "b": 2 }, { "a": 1 }, { "a": 1, "b": 2, "c": 2 }], { "a": 1, "b": 2 }) ;
+
+	</script>
+</body>
+</html>
